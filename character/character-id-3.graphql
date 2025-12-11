@@ -1,0 +1,11 @@
+// query fetching character 1
+query{
+    character (id: 3){
+        id
+        name
+        status
+        species
+        type
+        gender
+    }
+}
